@@ -1,0 +1,111 @@
+body {
+    background-color: #e0e0e0;
+    font-size: 16px;
+}
+
+.swiper-container {
+    width: 101%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.radio-options {
+    display: grid;
+    grid-template-columns: 5% 2%;
+    gap: 5px;
+}
+
+.submit {
+    font-size: 15px;
+    width: 100px;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#school-form {
+    width: 75%;
+    background-color: #ffffff;
+    padding-bottom: 400px;
+    border-radius: 20px;
+}
+#personal-form {
+    width: 75%;
+    background-color: #ffffff;
+    padding-bottom: 400px;
+    border-radius: 20px;
+}
+#payment-form{
+    width: 75%;
+    background-color: #ffffff;
+    padding-bottom: 400px;
+    border-radius: 20px;
+}
+
+input {
+    height: 35px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.error{
+    color: rgb(255, 0, 0);
+}
+.submit{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #ff6060;
+        font-size: 25px;
+    }
+
+    .submit{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .radio-options {
+        display: block;
+    }
+}
